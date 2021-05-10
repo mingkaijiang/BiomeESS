@@ -1066,7 +1066,7 @@ subroutine daily_diagnostics(vegn,iyears,idoy,iday,fno3,fno4)
                 iyears,idoy,i, cc%ccID,cc%species,cc%layer,   &
                 cc%nindivs*10000, cc%layerfrac, cc%LAI, &
                 cc%dailygpp,cc%dailyresp,cc%dailytrsp, &
-                cc%seedC,cc%NPPleaf,cc%NPProot,cc%NPPwood, &
+                !cc%seedC,cc%NPPleaf,cc%NPProot,cc%NPPwood, &
                 cc%NSC, cc%seedC, cc%bl, cc%br, cc%bsw, cc%bHW, &
                 cc%NSN*1000, cc%seedN*1000, cc%leafN*1000, &
                 cc%rootN*1000,cc%sapwN*1000,cc%woodN*1000

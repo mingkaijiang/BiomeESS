@@ -89,7 +89,7 @@ program BiomeESS
    character(len=50) :: filepath_out,filesuffix
    character(len=50) :: parameterfile(10),chaSOM(10)
    character(len=50) :: runID
-   character(len=50) :: namelistfile  ! = 'parameters_Konza-shrub.nml' ! 'parameters_Konza-grass.nml' !
+   character(len=50) :: namelistfile ! = 'parameters_Konza-shrub.nml' ! 'parameters_Konza-grass.nml' !
                                        !   'parameters_WC_biodiversity.nml'
    integer :: timeArray(3)
 
@@ -128,7 +128,7 @@ program BiomeESS
         'N_uptk','N_fix','maxLAI'
 
    write(fno3,'(5(a5,","),25(a8,","))')              &
-        'year','doy','hour','cID','PFT',             &
+        'year','doy','cohort','cID','PFT',             &
         'layer','density', 'f_layer', 'LAI',         &
         'gpp','resp','transp',                       &
         'NSC','seedC','leafC','rootC','SW-C','HW-C', &
