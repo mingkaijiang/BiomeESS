@@ -2589,7 +2589,7 @@ subroutine update_species(c, t_ann, t_cold, p_ann, cm, landuse)
      spp=SP_TEMPDEC  ! temperate deciduous non-grass
   endif
 
-  ! reset leaf age to zero if species are chnaged
+  ! reset leaf age to zero if species are changed
   if (spp/=c%species) c%leaf_age = 0.0
 
   c%species = spp

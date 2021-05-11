@@ -89,11 +89,11 @@ program BiomeESS
    character(len=50) :: filepath_out,filesuffix
    character(len=50) :: parameterfile(10),chaSOM(10)
    character(len=50) :: runID
-   character(len=50) :: namelistfile ! = 'parameters_Konza-shrub.nml' ! 'parameters_Konza-grass.nml' !
+   character(len=50) :: namelistfile ! = 'parameters_EucFACE.nml' ! 'parameters_Konza-grass.nml' !
                                        !   'parameters_WC_biodiversity.nml'
    integer :: timeArray(3)
 
-   runID = 'Konza-shrub' ! 'FACE_OR' ! 'FACE_hydro' ! 
+   runID = 'EucFACE' ! 'FACE_OR' ! 'FACE_hydro' ! 
    namelistfile = 'parameters_'//trim(runID)//'.nml' ! 'parameters_Konza-grass.nml' !
     !   'parameters_WC_biodiversity.nml' ! 'parameters_CN.nml' ! 'parameters_Allocation.nml' !
    ! call random_seed()
